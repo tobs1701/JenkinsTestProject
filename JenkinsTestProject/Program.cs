@@ -10,7 +10,13 @@ namespace JenkinsTestProject
         static void Main(string[] args)
         {
             WriteHelloWorldToConsole();
+            WriteSecondaryGreetingToConsole();
             AwaitUserResponse();
+        }
+
+        private static void WriteSecondaryGreetingToConsole()
+        {
+            Console.WriteLine("You're my homie!");
         }
 
         private static void AwaitUserResponse()
