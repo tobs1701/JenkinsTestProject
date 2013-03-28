@@ -11,7 +11,13 @@ namespace JenkinsTestProject
         {
             WriteHelloWorldToConsole();
             WriteSecondaryGreetingToConsole();
+            ArbitraryMethod();
             AwaitUserResponse();
+        }
+
+        private static void ArbitraryMethod()
+        {
+            throw new NotImplementedException();
         }
 
         private static void WriteSecondaryGreetingToConsole()
