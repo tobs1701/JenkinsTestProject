@@ -11,11 +11,11 @@ namespace JenkinsTestProject
         {
             WriteHelloWorldToConsole();
             WriteSecondaryGreetingToConsole();
-            ArbitraryMethodRenamedAgain();
+            OneMoreArbitraryChange();
             AwaitUserResponse();
         }
 
-        private static void ArbitraryMethodRenamedAgain()
+        private static void OneMoreArbitraryChange()
         {
             throw new NotImplementedException();
         }
