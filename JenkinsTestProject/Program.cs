@@ -14,6 +14,11 @@ namespace JenkinsTestProject
 			AwaitUserResponse();
 		}
 
+		private static void TalkBacktoUser()
+		{
+			Console.WriteLine("Really? That's the one you're going to press? Couldn't you be a little more imaginative?");
+		}
+
 		private static void WriteSecondaryGreetingToConsole()
 		{
 			Console.WriteLine("You're my homie!");
