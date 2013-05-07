@@ -21,7 +21,7 @@ namespace JenkinsTestProject
 
 		private static void AwaitUserResponse()
 		{
-			Console.Write("Press any key to continue ...");
+			Console.Write("Yo, press a key, dude ...");
 			Console.ReadLine();
 		}
 
