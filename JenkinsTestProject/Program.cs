@@ -12,12 +12,6 @@ namespace JenkinsTestProject
 			WriteHelloWorldToConsole();
 			WriteSecondaryGreetingToConsole();
 			AwaitUserResponse();
-			TalkBacktoUser();
-		}
-
-		private static void TalkBacktoUser()
-		{
-			Console.WriteLine("Really? That's the one you're going to press? Couldn't you be a little more imaginative?");
 		}
 
 		private static void WriteSecondaryGreetingToConsole()
