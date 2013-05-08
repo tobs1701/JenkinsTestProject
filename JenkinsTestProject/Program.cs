@@ -12,6 +12,7 @@ namespace JenkinsTestProject
 			WriteHelloWorldToConsole();
 			WriteSecondaryGreetingToConsole();
 			AwaitUserResponse();
+			TalkBacktoUser();
 		}
 
 		private static void TalkBacktoUser()
