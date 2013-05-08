@@ -18,7 +18,8 @@ namespace JenkinsTestProject
 
 		private static void SayGoodbye()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("Goodbye!");
+			Environment.Exit(0);
 		}
 
 		private static void TalkBacktoUser()
