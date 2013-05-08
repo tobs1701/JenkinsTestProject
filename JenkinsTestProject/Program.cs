@@ -13,6 +13,12 @@ namespace JenkinsTestProject
 			WriteSecondaryGreetingToConsole();
 			AwaitUserResponse();
 			TalkBacktoUser();
+			SayGoodbye();
+		}
+
+		private static void SayGoodbye()
+		{
+			throw new NotImplementedException();
 		}
 
 		private static void TalkBacktoUser()
